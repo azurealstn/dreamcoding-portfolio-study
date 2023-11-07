@@ -33,7 +33,7 @@
       <img class="header__logo__img" src="images/favicon.ico" alt="logo">
       <h1 class="header__logo__title"><a href="#">Boricha</a></h1>
     </div>
-    <nav>
+    <nav class="header__nav">
       <ul class="header__menu">
         <li><a class="header__menu__item active" href="#home">Home</a></li>
         <li><a class="header__menu__item" href="#about">About</a></li>
@@ -311,28 +311,30 @@
 
     <!-- Arrow up -->
     <aside>
-      <a href="#home" title="back to top">
+      <a class="arrow-up" href="#home" title="back to top">
         <i class="fa-solid fa-circle-arrow-up"></i>
       </a>
     </aside>
   </main>
 
   <!-- Footer -->
-  <footer id="contact" class="section max-container">
-    <h2 class="title">Let&#39;s talk</h2>
-    <p class="description">azurealstn@naver.com</p>
-    <ul>
-      <li>
-        <a href="#" title="my github link" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#" title="my linkedin link" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </li>
-    </ul>
+  <footer id="contact" class="section">
+    <div class="max-container">
+      <h2 class="title">Let&#39;s talk</h2>
+      <p class="description">azurealstn@naver.com</p>
+      <ul class="contact__links">
+        <li>
+          <a class="contact__link" href="#" title="my github link" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="contact__link" href="#" title="my linkedin link" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
